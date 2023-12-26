@@ -10,6 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const bpmn_client_1 = require("bpmn-client");
+console.log(bpmn_client_1);
 const dotenv = require('dotenv');
 const res = dotenv.config();
 console.log("Testing BPMNClient 3");
