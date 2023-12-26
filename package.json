@@ -2,12 +2,13 @@
   "name": "bpmn-client-sample",
   "version": "1.5.0",
   "license": "MIT",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
     "test": "mocha -R dot",
-    "setup": "node setup.js",
-    "start": "node cli.js"
+    "setup": "bpmn-client-setup",
+    "cli": "bpmn-client-cli"
   },
   "description": "Client API for BPMN-Server webservices",
   "keywords": [
@@ -21,7 +22,7 @@
     "name": "ralphhanna"
   },
   "dependencies": {
-    "bpmn-client": "*",
+    "bpmn-client": "bpmn-client",
     "connect-busboy": "0.0.2",
     "core-js": "^3.6.5",
     "dotenv": "^16.0.1"
