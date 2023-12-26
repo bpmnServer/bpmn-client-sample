@@ -22,7 +22,7 @@
     "name": "ralphhanna"
   },
   "dependencies": {
-    "bpmn-client": "bpmn-client",
+    "bpmn-client": "^1.6.0",
     "connect-busboy": "0.0.2",
     "core-js": "^3.6.5",
     "dotenv": "^16.0.1"
